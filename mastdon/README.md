@@ -1,3 +1,5 @@
-Ansible 2.3
-http://www.publickey1.jp/blog/17/ansible_23sshpersisten_connection.html
-・Persistent Connection
+◆20170417  
+https://github.com/tootsuite/mastodon
+
+・docker - mastdon
+http://qiita.com/zembutsu/items/fd52a504321dd5d6f0b8
