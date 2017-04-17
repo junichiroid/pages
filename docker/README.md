@@ -8,5 +8,5 @@ CentOs7のイメージ作るところ→Dockerfileの作成  
 http://tatsyblog.sakura.ne.jp/wordpress/ci/1214/    
 Runで`yum install git`とかすればいいのかしら    
 ↓    
-ここから一旦別ページ（https://github.com/junichiroid/pages/blob/master/docker/Dockerfile.md）
+ここから一旦別ページ（https://github.com/junichiroid/pages/blob/master/docker/Dockerfile.md)
 
