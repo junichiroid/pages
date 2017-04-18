@@ -2,7 +2,7 @@ React Native  
 ◆大元  
 https://facebook.github.io/react-native/  
 
-React Native  
+React Native    
 ◆参考↓  
 http://amagitakayosi.hatenablog.com/entry/2017/04/18/120000
 
@@ -91,4 +91,10 @@ create-react-native-app で作ったアプリには、最初から expo がイ�
 ◆あとはReact
 ◆ドキュメント読んでね
 https://docs.expo.io/versions/v15.0.0/index.html
+```
+
+◆ReactNativeでできそうな面白そうなこと   
+```
+◆React NativeでTwitterクライアントを作ってみよう
+https://www.slideshare.net/dcubeio/20161208-react-nativetwitter-70273273
 ```
