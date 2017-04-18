@@ -1,4 +1,8 @@
-React Native  
+React Native    
+◆大元  
+https://facebook.github.io/react-native/  
+
+React Native  
 ◆参考↓  
 http://amagitakayosi.hatenablog.com/entry/2017/04/18/120000
 
