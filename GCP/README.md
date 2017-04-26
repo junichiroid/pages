@@ -87,3 +87,8 @@ kubernetes   10.123.240.1     <none>            443/TCP          1h
 mattermost   10.123.251.124   130.211.241.121   8080:32691/TCP   52s
 ```
 
+まとめると
+```
+イメージからdevelopment作る。（ちなみにmattermostの場合、8065ポートでの公開だったので、それに合わせたポートにしないといけなかった。 kubectl run mattermost --image=gcr.io/mattermost-165707/mattermost --port=8065）
+developmentを元にサービスを作る。
+```
