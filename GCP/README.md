@@ -91,4 +91,10 @@ mattermost   10.123.251.124   130.211.241.121   8080:32691/TCP   52s
 ```
 イメージからdevelopment作る。（ちなみにmattermostの場合、8065ポートでの公開だったので、それに合わせたポートにしないといけなかった。 kubectl run mattermost --image=gcr.io/mattermost-165707/mattermost --port=8065）
 developmentを元にサービスを作る。
+
+PC-10428:~ a12653$ kubectl get service
+NAME         CLUSTER-IP       EXTERNAL-IP       PORT(S)          AGE
+kubernetes   10.123.240.1     <none>            443/TCP          17h
+mattermost   10.123.250.123   130.211.241.121   8065:32350/TCP   1m
 ```
+
