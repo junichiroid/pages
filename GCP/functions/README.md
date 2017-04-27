@@ -1,3 +1,7 @@
+# Cloud Functions
+[書き方のoverviewここに](https://cloud.google.com/functions/docs/writing/)
+
+
 # [Google Cloud Functions Emulator](https://github.com/GoogleCloudPlatform/cloud-functions-emulator)
 
 nodeのバージョンサポートがまだ最新じゃないっぽい
