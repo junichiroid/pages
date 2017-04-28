@@ -1,4 +1,4 @@
-# Cloud Functions
+# [Cloud Functions](https://cloud.google.com/functions/)
 [書き方のoverviewここに](https://cloud.google.com/functions/docs/writing/)
 
 
