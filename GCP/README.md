@@ -10,6 +10,14 @@ $ gcloud auth list
 
 アカウント切り替え
 $ gcloud config set account アカウント名
+
+SDKのアップデート
+$ gcloud components update
+ちなみに、gsutilのアップデートもこちらで行う模様
+> gsutil updateしようとした際のログ
+> It looks like you are trying to run "/Users/a12653/google-cloud-sdk/bin/bootstrapping/gsutil.py update".
+> The "update" command is no longer needed with the Cloud SDK.
+> To update, run: gcloud components update
 ```
 
 https://cloud.google.com/container-engine/docs/before-you-begin
