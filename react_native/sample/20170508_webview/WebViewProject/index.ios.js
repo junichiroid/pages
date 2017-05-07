@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import { AppRegistry, Text } from 'react-native';
+import { AppRegistry, WebView } from 'react-native';
 
 class WebViewProject extends Component {
   render() {
     return (
-      <Text>Hello world!</Text>
+      <WebView
+        source={{uri: 'https://github.com/facebook/react-native'}}
+        style={{marginTop: 20}}
+      />
     );
   }
 }
