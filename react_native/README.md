@@ -2,9 +2,9 @@ React Native  
 ◆大元  
 https://facebook.github.io/react-native/  
 
-React Native    
-◆参考↓  
-http://amagitakayosi.hatenablog.com/entry/2017/04/18/120000
+##### 参考
+[expo.ioを使ってリアルタイムにReact Nativeアプリを開発する](http://amagitakayosi.hatenablog.com/entry/2017/04/18/120000)  
+★[React Native入門1　〜React Nativeへとうこそ！〜](http://yutamasun.sakura.ne.jp/blog/2016/03/21/react-native-01/)(2017/05/08追加)←これわかりやすそう
 
 ```
 下準備
