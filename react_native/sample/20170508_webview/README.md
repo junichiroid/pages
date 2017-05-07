@@ -42,6 +42,8 @@ class MyWeb extends Component {
 > この際に、importをするのをお忘れなく。  
 > [WebView](https://facebook.github.io/react-native/docs/webview.html)
 
+---
+
 ### 番外編
 `https`以外だとATSで弾かれるので、その際はinfo.plistを直接変えて`react-native run-ios`
 > [ATS(App Transfer Security)でローカルホスト接続許可](http://matagotch.hatenablog.com/entry/2016/05/16/222101)
