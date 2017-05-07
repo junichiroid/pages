@@ -1,2 +1,2 @@
-◆2017/04/21  
-[React NativeでiOSアプリを作ってストアでリリースしてみた](http://qiita.com/ariiyu/items/81154c45b8b37feb8009)
+- 2017/04/21 - [React NativeでiOSアプリを作ってストアでリリースしてみた](http://qiita.com/ariiyu/items/81154c45b8b37feb8009)
+- 2017/05/08 - [new FirebaseとReact NativeでiOS, Android向けチャットを５分で作る](http://qiita.com/imaimiami/items/2bf9e47f68d0e791586b)
