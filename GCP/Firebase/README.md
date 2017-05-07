@@ -1,6 +1,7 @@
 [お値段](https://firebase.google.com/pricing/)
 ```
 とりあえず、firebase initすればいいみたい。
+*project settingには気をつけて（invalid projectIdとか言われる）
 
 そのあと、よくわからんけど、5000だと10秒に1回リダイレクトが走るので、5001とかで起動するのが良さげ
 ```
