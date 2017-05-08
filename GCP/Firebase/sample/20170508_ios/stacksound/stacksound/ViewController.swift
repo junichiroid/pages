@@ -21,5 +21,11 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func signUpButton(_ sender: Any) {
+        self.performSegue(withIdentifier: "toSignUp", sender: self)
+    }
+   
+    @IBAction func loginButton(_ sender: Any) {
+    }
 }
 

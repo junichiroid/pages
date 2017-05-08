@@ -7,4 +7,5 @@ target 'stacksound' do
 
   # Pods for stacksound
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 end

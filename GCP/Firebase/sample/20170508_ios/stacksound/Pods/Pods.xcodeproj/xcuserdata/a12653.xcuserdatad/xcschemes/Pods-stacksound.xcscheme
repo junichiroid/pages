@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EB444E48B5D12BACA435EB4A8B4F58B5"
+               BlueprintIdentifier = "FBD86E9914A9C6A58318E61ED60215AE"
                BuildableName = "Pods_stacksound.framework"
                BlueprintName = "Pods-stacksound"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EB444E48B5D12BACA435EB4A8B4F58B5"
+            BlueprintIdentifier = "FBD86E9914A9C6A58318E61ED60215AE"
             BuildableName = "Pods_stacksound.framework"
             BlueprintName = "Pods-stacksound"
             ReferencedContainer = "container:Pods.xcodeproj">
