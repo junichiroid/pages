@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase //Firebaseをインポート
-import FirebaseAuth
 
 class SingInController: UIViewController ,UITextFieldDelegate {
     @IBAction func backButton(_ sender: Any) {
