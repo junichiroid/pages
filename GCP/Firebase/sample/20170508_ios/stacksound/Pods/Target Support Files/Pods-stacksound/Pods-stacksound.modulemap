@@ -1,0 +1,6 @@
+framework module Pods_stacksound {
+  umbrella header "Pods-stacksound-umbrella.h"
+
+  export *
+  module * { export * }
+}
