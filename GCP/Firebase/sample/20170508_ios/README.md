@@ -1,0 +1,3 @@
+そもそもデリゲートって？
+
+UITextFieldDelegateとか

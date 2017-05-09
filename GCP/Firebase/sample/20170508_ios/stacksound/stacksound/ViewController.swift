@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class ViewController: UIViewController {
 
@@ -26,6 +27,31 @@ class ViewController: UIViewController {
     }
    
     @IBAction func loginButton(_ sender: Any) {
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        //ログインしていれば、遷移
+        //FIRAuthがユーザー認証のためのフレーム
+        //checkUserVerifyでチェックして、ログイン済みなら画面遷移
+        print("ログインしていますか？")
+        if self.checkUserVerify() {
+            self.transitionToView()
+        }
+    }
+    
+    func transitionToView() {
+        print("トランジショー")
+       self.performSegue(withIdentifier: "toView", sender: self)
+    }
+    
+    // ログイン済みかどうかと、メールのバリデーションが完了しているか確認
+    func checkUserVerify()  -> Bool {
+        let user = FIRAuth.auth()?.currentUser
+        print("ユーザー↓")
+        print(user)
+        return true
+//        return user.isEmailVerified
     }
 }
 

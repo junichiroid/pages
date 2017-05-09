@@ -42,6 +42,9 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <connections>
+                        <segue destination="oXz-l0-tXb" kind="show" identifier="toView" id="X0Y-Dc-bGh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -99,7 +102,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Eq6-kD-pzG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1047" y="-63"/>
+            <point key="canvasLocation" x="978" y="-702"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4mo-wP-xBK">
@@ -112,12 +115,29 @@
                     <view key="view" contentMode="scaleToFill" id="BIp-kM-4uh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ログイン後" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eA9-5S-GEY">
+                                <rect key="frame" x="166" y="295" width="87" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPo-7N-W5Q">
+                                <rect key="frame" x="144" y="426" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="y6G-gD-9sD"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rFV-mv-etv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1710" y="139"/>
+            <point key="canvasLocation" x="1652" y="90"/>
         </scene>
         <!--Login Controller-->
         <scene sceneID="Ckt-dz-XXj">
@@ -135,6 +155,9 @@
                                 <rect key="frame" x="168" y="548" width="38" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <action selector="loginButtonAction:" destination="COH-aU-dca" eventType="touchUpInside" id="VNv-c1-MKl"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d19-xm-QWp">
                                 <rect key="frame" x="50" y="295" width="275" height="30"/>
@@ -155,19 +178,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="F8h-AQ-G6v"/>
+                                    <action selector="backButtonAction:" destination="COH-aU-dca" eventType="touchUpInside" id="Uel-gE-OZY"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="loginToTop" id="F8h-AQ-G6v"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="emailTextField" destination="d19-xm-QWp" id="7RK-dm-UcM"/>
+                        <outlet property="passwordTextField" destination="Ssr-k2-8oC" id="oFH-AB-MQh"/>
+                        <segue destination="oXz-l0-tXb" kind="show" identifier="toVC" id="xmv-Sr-27d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hYJ-j3-Iwv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921" y="902"/>
+            <point key="canvasLocation" x="807" y="815"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="0If-YF-7d5"/>
+        <segue reference="y6G-gD-9sD"/>
+        <segue reference="X0Y-Dc-bGh"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0532B48E1EC1862900546409 /* View2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0532B48D1EC1862900546409 /* View2Controller.swift */; };
 		05CB07EA1EC01D0200350955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB07E91EC01D0200350955 /* AppDelegate.swift */; };
 		05CB07EC1EC01D0200350955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CB07EB1EC01D0200350955 /* ViewController.swift */; };
 		05CB07EF1EC01D0200350955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05CB07ED1EC01D0200350955 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0532B48D1EC1862900546409 /* View2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View2Controller.swift; sourceTree = "<group>"; };
 		05CB07E61EC01D0200350955 /* stacksound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stacksound.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05CB07E91EC01D0200350955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05CB07EB1EC01D0200350955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 			children = (
 				05CB07E91EC01D0200350955 /* AppDelegate.swift */,
 				05CB07EB1EC01D0200350955 /* ViewController.swift */,
+				0532B48D1EC1862900546409 /* View2Controller.swift */,
 				05E14B501EC0220D002D84DF /* SingInController.swift */,
 				05E14B521EC022A9002D84DF /* LoginController.swift */,
 				05CB07ED1EC01D0200350955 /* Main.storyboard */,
@@ -223,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05CB07EC1EC01D0200350955 /* ViewController.swift in Sources */,
+				0532B48E1EC1862900546409 /* View2Controller.swift in Sources */,
 				05E14B531EC022A9002D84DF /* LoginController.swift in Sources */,
 				05E14B511EC0220D002D84DF /* SingInController.swift in Sources */,
 				05CB07EA1EC01D0200350955 /* AppDelegate.swift in Sources */,

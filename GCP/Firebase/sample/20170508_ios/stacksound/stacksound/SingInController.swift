@@ -44,7 +44,18 @@ class SingInController: UIViewController ,UITextFieldDelegate {
             //エラーなしなら、認証完了
             if error == nil {
                 // エラーがない場合にはそのままログイン画面に飛び、ログインしてもらう
-                self.transitionToLogin()
+                // メール認証？→これでメールが送られるらしい
+                user?.sendEmailVerification(completion: { (error) in
+                    if error == nil {
+                        // エラーがない場合にはそのままログイン画面に飛び、ログインしてもらう
+                        self.transitionToLogin()
+                    } else {
+                        print("\(error?.localizedDescription)")
+                    }
+                })
+
+                
+                
             } else {
                 print("\(error?.localizedDescription)")
             }
@@ -58,7 +69,7 @@ class SingInController: UIViewController ,UITextFieldDelegate {
     }
     
     func transitionToLogin() {
-        
+        print("登録に成功しました")
     }
     
 
