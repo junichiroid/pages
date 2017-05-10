@@ -160,7 +160,39 @@
             if (loginForm.password.value == '') {
                 return Login.doError('パスワードを入力してください。');
             }
-            console.log(loginForm.username.value);
+
+            var email = loginForm.username.value;
+            var password = loginForm.password.value;
+
+            // Email address欄の値（email）、Password欄の値（password）でFirebaseのユーザー認証を行う
+            firebase.auth().signInWithEmailAndPassword(email, password).catch(function(error) {
+
+                // 認証エラーの際のエラーコード
+                var errorCode = error.code;
+
+                // 認証エラーの際のエラーメッセージ
+                var errorMessage = error.message;
+
+                // エラーメッセージを表示
+                if (errorCode === 'auth/wrong-password') {
+                    alert('Wrong password.');
+                } else {
+                    alert(errorMessage);
+                }
+
+                // ここまでくれば認証が通っているということなので、
+                // ここでauthの情報を取ってくるようにする
+                firebase.auth().onAuthStateChanged(function(user) {
+                    if (user) {
+                        // User is signed in.
+                        alert("User is signed in.");
+                        console.log(user);
+                    } else {
+                        // No user is signed in.
+                        alert("No user is signed in.");
+                    }
+                });
+            });
         }
     </script>
 </body>
