@@ -118,3 +118,6 @@ i  Writing project information to .firebaserc...
 ✔  Firebase initialization complete!
 ```
 全部つくれたっぽい。そして、`firebase serve` 起動しました。
+
+##### 認証
+簡単にログインフォームをhtml作る。
