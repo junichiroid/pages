@@ -137,3 +137,4 @@ i  Writing project information to .firebaserc...
  - [ ] Storage
  - [x] Hosting
  
+### 別件だけど、Google Analytics導入してみてもいいかも
