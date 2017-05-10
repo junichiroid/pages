@@ -1,3 +1,4 @@
 - 2017/04/21 - [React NativeでiOSアプリを作ってストアでリリースしてみた](http://qiita.com/ariiyu/items/81154c45b8b37feb8009)
 - 2017/05/08 - [new FirebaseとReact NativeでiOS, Android向けチャットを５分で作る](http://qiita.com/imaimiami/items/2bf9e47f68d0e791586b)
 - 2017/05/11 - [【React Native】良さげなコンポーネント紹介](http://qiita.com/YutamaKotaro/items/052768ca01a6369a8ad5)
+- 2017/05/11 - ★[新 Firebase を React Native で使うためのまとめ](http://qiita.com/janus_wel/items/4892e404d9a81b8fd118)
