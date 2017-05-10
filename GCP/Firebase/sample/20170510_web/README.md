@@ -129,3 +129,11 @@ i  Writing project information to .firebaserc...
 
 ![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/images/screen2.png)  
 →そもそもfirebaseのAnalyticsを提供してないっぽい    
+
+##### webが提供してるもの
+ - [ ] Cloud Massasing
+ - [x] Authentication
+ - [ ] Realtime database
+ - [ ] Storage
+ - [x] Hosting
+ 
