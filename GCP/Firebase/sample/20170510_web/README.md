@@ -1,7 +1,7 @@
 # iosで使っているFirebaseのweb版を使ってみる
 
 ##### 0.導入
-![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/screenshot.png)  
+![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/images/screen1.png)  
 コンソールから新規プロジェクトの追加を行う
 
 ##### 1.htmlコードの追加
@@ -122,7 +122,10 @@ i  Writing project information to .firebaserc...
 ##### 認証
 簡単にログインフォームをhtml作る。
 
-##### Analitics?
-![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/screenshot.png)  
-なんでここに出てこないのか？Analiticsをwebで導入していないから？  
+##### Analytics?
+![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/images/screen1.png)  
+なんでここに出てこないのか？Analyticsをwebで導入していないから？  
 →入れてみる
+
+![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/images/screen2.png)  
+→そもそもfirebaseのAnalyticsを提供してないっぽい    
