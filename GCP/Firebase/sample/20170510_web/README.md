@@ -121,3 +121,8 @@ i  Writing project information to .firebaserc...
 
 ##### 認証
 簡単にログインフォームをhtml作る。
+
+##### Analitics?
+![](https://github.com/junichiroid/pages/blob/master/GCP/Firebase/sample/20170510_web/screenshot.png)  
+なんでここに出てこないのか？Analiticsをwebで導入していないから？  
+→入れてみる
