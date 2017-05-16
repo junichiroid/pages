@@ -5,6 +5,7 @@
 3.firebase initでbuildフォルダを指定
 4.firebase deployで終了
 ```
+→https://github.com/junichiroid/pages/tree/master/React/20170517_create/hello
 
 知りたいこと。  
 ```
