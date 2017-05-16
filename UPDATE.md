@@ -9,6 +9,6 @@
  ↳ それも [★ React + Redux + Firebaseで作るTodo App](http://qiita.com/gonta616/items/278a7e81a8b624d9621e)  かなぁ？
  - [2017/05/16] Reactの生成だと [ES6版React.jsチュートリアル](http://qiita.com/nownabe/items/2d8b92d95186c3941de0#getting-started) ←これがいいかも
  - [2017/05/17] Reactでfirebase deploy → https://github.com/junichiroid/pages/tree/master/React  
- ↳ `yarn`だけしか使えないと思ったら`npm`も使えるみたい（create-react-appで自動生成されたREADMEに書いてあった)なので、npmでfirebase導入できそう(中身はhttp://qiita.com/gonta616/items/278a7e81a8b624d9621e)ここと一緒
+ ↳ `yarn`だけしか使えないと思ったら`npm`も使えるみたい（create-react-appで自動生成されたREADMEに書いてあった)なので、npmでfirebase導入できそう(中身はhttp://qiita.com/gonta616/items/278a7e81a8b624d9621e) ここと一緒
  
  
