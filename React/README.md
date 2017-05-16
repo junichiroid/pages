@@ -7,6 +7,15 @@
 ```
 →https://github.com/junichiroid/pages/tree/master/React/20170517_create/hello
 
+# npmも使えるよ(create-react-appした時に自動で出来たREADMEに書いてあった)
+```
+- [Available Scripts](#available-scripts)
+  - [npm start](#npm-start)
+  - [npm test](#npm-test)
+  - [npm run build](#npm-run-build)
+  - [npm run eject](#npm-run-eject)
+```
+
 知りたいこと。  
 ```
 ・create-react-appした時のフォルダ構成
