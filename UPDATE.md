@@ -7,6 +7,7 @@
  ↳ これめっちゃ導入にいいかも。
  - [2017/05/16] firebase、webアプリデプロイはいいんだけど、firebaseのキーとかの管理って？  
  ↳ それも [★ React + Redux + Firebaseで作るTodo App](http://qiita.com/gonta616/items/278a7e81a8b624d9621e)  かなぁ？
- - [今日] Reactの生成だと [ES6版React.jsチュートリアル](http://qiita.com/nownabe/items/2d8b92d95186c3941de0#getting-started) ←これがいいかも
+ - [2017/05/16] Reactの生成だと [ES6版React.jsチュートリアル](http://qiita.com/nownabe/items/2d8b92d95186c3941de0#getting-started) ←これがいいかも
+ - [2017/05/17] Reactでfirebase deploy → https://github.com/junichiroid/pages/tree/master/React
  
  
