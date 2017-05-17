@@ -15,3 +15,6 @@
  - [2017/05/17 16:07] nativeのdesingページ追加 https://github.com/junichiroid/pages/blob/master/react_native/DESIGN.md
  - [2017/05/17 16:19] reactのみだと、`materialUI`が一番人気っぽい https://github.com/callemall/material-ui | [10 Best ReactJS UI Frameworks for rapid prototyping - Hashnode](https://hashnode.com/post/10-best-reactjs-ui-frameworks-for-rapid-prototyping-cit49tqx414z89c53equ4zc5k)
  - [2017/05/17 16:51] RN-FBは `react-native-config` というものを使って configを隠せばいいらしい http://qiita.com/janus_wel/items/4892e404d9a81b8fd118
+ - [2017/05/17 16:57] 別のログイン手法 | [[初心者向け]ReactNativeでTwitter,Facebookログインをするよ](http://qiita.com/endotakashi/items/d23c59673e46d91f2597)
+ ↳ RNの画像キャッシュの話 | http://taiki-t.hatenablog.com/entry/2017/02/12/195346
+ 
