@@ -5,15 +5,11 @@ import {
   Link
 } from 'react-router-dom'
 
+import {About} from './about.js'
+
 const Home = () => (
   <div>
     <h2>Home</h2>
-  </div>
-)
-
-const About = () => (
-  <div>
-    <h2>About</h2>
   </div>
 )
 
