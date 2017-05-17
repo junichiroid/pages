@@ -12,3 +12,4 @@
  ↳ `yarn`だけしか使えないと思ったら`npm`も使えるみたい（create-react-appで自動生成されたREADMEに書いてあった)なので、npmでfirebase導入できそう(中身はhttp://qiita.com/gonta616/items/278a7e81a8b624d9621e) ここと一緒
  - [2017/05/17 14:01] router参考になりそうなところあったので、そこ参考にしながら一回作ってみる。 [[Project:20170517_router]](https://github.com/junichiroid/pages/tree/master/React/20170517_router)
  > https://blog.mismithportfolio.com/web/20161107reactrouter
+ - [2017/05/17 16:07] nativeのdesingページ追加 https://github.com/junichiroid/pages/blob/master/react_native/DESIGN.md
