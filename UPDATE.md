@@ -17,4 +17,4 @@
  - [2017/05/17 16:51] RN-FBは `react-native-config` というものを使って configを隠せばいいらしい http://qiita.com/janus_wel/items/4892e404d9a81b8fd118
  - [2017/05/17 16:57] 別のログイン手法 | [[初心者向け]ReactNativeでTwitter,Facebookログインをするよ](http://qiita.com/endotakashi/items/d23c59673e46d91f2597)
  ↳ RNの画像キャッシュの話 | http://taiki-t.hatenablog.com/entry/2017/02/12/195346
- 
+ - [2017/05/17 17:33] ログイン した後は、ログイン情報を [react-native-cache](https://www.npmjs.com/package/react-native-cache) ここに残せばよい？
