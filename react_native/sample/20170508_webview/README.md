@@ -42,6 +42,9 @@ class MyWeb extends Component {
 > この際に、importをするのをお忘れなく。  
 > [WebView](https://facebook.github.io/react-native/docs/webview.html)
 
+### 3.実行
+`react-native run-ios`
+
 ---
 
 ### 番外編
