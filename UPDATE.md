@@ -21,3 +21,4 @@
  - [2017/05/18 13:43] 一旦RNでログイン(firebase)まで持って行こっか。
  - [2017/05/26 19:46] 面白いもの見つけた [React Native macOS (ex react-native-desktop)](https://github.com/ptmt/react-native-macos)
 　　↳Cocosでタイマー作ったけど、エネルギー使用量的にどっちがいいのか検証してみたかった
+ - [2017/05/26 19:57] [React Desktop](http://reactdesktop.js.org/) こんなものもあった。どっちもちょっとよくわかんない
