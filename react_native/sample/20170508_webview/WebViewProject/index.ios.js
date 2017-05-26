@@ -5,7 +5,7 @@ class WebViewProject extends Component {
   render() {
     return (
       <WebView
-        source={{uri: 'https://github.com/facebook/react-native'}}
+        source={{uri: 'https://s.amebame.com/#minigame'}}
         style={{marginTop: 20}}
       />
     );
