@@ -1,0 +1,1 @@
+- [「黒騎士と白の魔王」gRPCによるHTTP/2 - API, Streamingの実践](https://www.slideshare.net/neuecc/grpchttp2-api-streaming)
