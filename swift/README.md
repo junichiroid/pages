@@ -8,3 +8,5 @@ https://realm.io/jp/news/slug-max-alexander-mvvm-rxswift/
 let a = 123
 type(of: a) //Int.type
 ```
+# 更新
+- [2017/06/09 10:00] [[iOS 11] 新フレームワークCore NFCを使ってNFCタグのデータを読み取ってみた](http://dev.classmethod.jp/smartphone/iphone/ios-11-core-nfc-intro/)
